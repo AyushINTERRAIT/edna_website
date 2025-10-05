@@ -1,0 +1,120 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.auth-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.auth-header h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.auth-header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.auth-form {
+  padding: 30px;
+}
+
+.auth-form h2 {
+  color: #333;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.auth-form label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-block {
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.auth-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.auth-links a {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+.demo-credentials {
+  background: #f8f9fa;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.demo-credentials h4 {
+  color: #333;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.demo-credentials p {
+  font-size: 12px;
+  color: #666;
+  margin: 6px 0;
+}
+
+@media (max-width: 600px) {
+  .auth-header h1 {
+    font-size: 20px;
+  }
+
+  .auth-header p {
+    font-size: 12px;
+  }
+
+  .auth-form {
+    padding: 20px;
+  }
+
+  .auth-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
