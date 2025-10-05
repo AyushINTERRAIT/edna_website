@@ -6,7 +6,7 @@
       "password": "admin123",
       "name": "Admin User",
       "role": "Administrator",
-      "createdAt": "2023-10-01T10:00:00Z"
+      "createdAt": "2025-09-01T10:00:00Z"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "password": "researcher123",
       "name": "Dr. Marine Researcher",
       "role": "Researcher",
-      "createdAt": "2023-10-02T10:00:00Z"
+      "createdAt": "2025-09-02T10:00:00Z"
     },
     {
       "id": "3",
@@ -22,19 +22,30 @@
       "password": "tech123",
       "name": "Lab Technician",
       "role": "Technician",
-      "createdAt": "2023-10-03T10:00:00Z"
+      "createdAt": "2025-09-03T10:00:00Z"
+    },
+    {
+      "id": "bd96",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "role": "Researcher",
+      "createdAt": "2025-10-05T14:58:46.776Z"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "name": "Arabian Sea Deep-Sea Survey 2023",
+      "name": "Arabian Sea Deep-Sea Survey 2025",
       "description": "Analysis of eDNA samples collected from depths of 2000-4000m in the Arabian Sea",
       "status": "Active",
       "ownerId": "2",
-      "members": ["2", "3"],
-      "createdAt": "2023-10-15T08:30:00Z",
-      "updatedAt": "2023-10-20T14:22:00Z"
+      "members": [
+        "2",
+        "3"
+      ],
+      "createdAt": "2025-09-15T08:30:00Z",
+      "updatedAt": "2025-09-20T14:22:00Z"
     },
     {
       "id": "2",
@@ -42,9 +53,23 @@
       "description": "Comprehensive eDNA analysis for biodiversity assessment in the Bay of Bengal region",
       "status": "Active",
       "ownerId": "2",
-      "members": ["2"],
-      "createdAt": "2023-10-18T09:00:00Z",
-      "updatedAt": "2023-10-18T09:00:00Z"
+      "members": [
+        "2"
+      ],
+      "createdAt": "2025-09-18T09:00:00Z",
+      "updatedAt": "2025-09-18T09:00:00Z"
+    },
+    {
+      "id": "bba1",
+      "name": "Indian Ocean Survey 2025",
+      "description": "To observe Taxonomy",
+      "status": "Active",
+      "ownerId": "1",
+      "members": [
+        "1"
+      ],
+      "createdAt": "2025-10-05T14:52:36.214Z",
+      "updatedAt": "2025-10-05T14:52:36.214Z"
     }
   ],
   "datasets": [
@@ -56,11 +81,11 @@
       "latitude": 15.4875,
       "longitude": 68.9874,
       "depth": 2500,
-      "collectionDate": "2023-10-10T06:30:00Z",
+      "collectionDate": "2025-09-10T06:30:00Z",
       "temperature": 4.2,
       "salinity": 35.1,
       "uploadedBy": "3",
-      "uploadedAt": "2023-10-15T10:15:00Z",
+      "uploadedAt": "2025-09-15T10:15:00Z",
       "status": "Analysis Complete",
       "size": "24.5 MB"
     },
@@ -72,11 +97,11 @@
       "latitude": 15.5123,
       "longitude": 68.9654,
       "depth": 3000,
-      "collectionDate": "2023-10-11T07:45:00Z",
+      "collectionDate": "2025-09-11T07:45:00Z",
       "temperature": 3.8,
       "salinity": 35.3,
       "uploadedBy": "3",
-      "uploadedAt": "2023-10-16T11:20:00Z",
+      "uploadedAt": "2025-09-16T11:20:00Z",
       "status": "In Queue",
       "size": "28.3 MB"
     }
@@ -89,9 +114,9 @@
       "modelVersion": "v2.1.0",
       "status": "Completed",
       "submittedBy": "2",
-      "submittedAt": "2023-10-15T11:00:00Z",
-      "startedAt": "2023-10-15T11:05:00Z",
-      "completedAt": "2023-10-15T12:30:00Z",
+      "submittedAt": "2025-09-15T11:00:00Z",
+      "startedAt": "2025-09-15T11:05:00Z",
+      "completedAt": "2025-09-15T12:30:00Z",
       "parameters": {
         "minConfidence": 0.75,
         "taxonomicLevel": "species"
@@ -105,7 +130,7 @@
       "modelVersion": "v2.1.0",
       "status": "Queued",
       "submittedBy": "2",
-      "submittedAt": "2023-10-16T12:00:00Z",
+      "submittedAt": "2025-09-16T12:00:00Z",
       "parameters": {
         "minConfidence": 0.75,
         "taxonomicLevel": "species"
@@ -211,7 +236,7 @@
     {
       "id": "1",
       "version": "v2.1.0",
-      "trainedDate": "2023-09-15T00:00:00Z",
+      "trainedDate": "2025-09-15T00:00:00Z",
       "isActive": true,
       "accuracy": 0.94,
       "precision": 0.92,
@@ -221,7 +246,7 @@
     {
       "id": "2",
       "version": "v2.0.0",
-      "trainedDate": "2023-07-20T00:00:00Z",
+      "trainedDate": "2025-07-20T00:00:00Z",
       "isActive": false,
       "accuracy": 0.91,
       "precision": 0.89,
@@ -249,9 +274,9 @@
     {
       "id": "1",
       "initiatedBy": "1",
-      "initiatedAt": "2023-09-01T10:00:00Z",
+      "initiatedAt": "2025-09-01T10:00:00Z",
       "status": "Completed",
-      "completedAt": "2023-09-15T08:30:00Z",
+      "completedAt": "2025-09-15T08:30:00Z",
       "datasetSize": 50000,
       "newModelVersion": "v2.1.0",
       "progress": 100

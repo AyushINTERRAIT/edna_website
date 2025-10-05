@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/dashboard" className="navbar-brand">
-          <FaFlask /> eDNA Platform
+          <FaFlask /> De Novo Discovery Engine
         </Link>
         
         <div className="navbar-menu">

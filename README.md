@@ -1,4 +1,4 @@
-﻿# eDNA Analysis Platform
+﻿# De Novo Discovery Engine
 
 An AI-driven web application for deep-sea environmental DNA (eDNA) analysis.
 

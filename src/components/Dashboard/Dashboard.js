@@ -148,7 +148,7 @@ const Dashboard = () => {
                       setNewProject({ ...newProject, name: e.target.value })
                     }
                     required
-                    placeholder="e.g., Arabian Sea Survey 2023"
+                    placeholder="e.g., Arabian Sea Survey 2025"
                   />
                 </div>
                 <div className="form-group">

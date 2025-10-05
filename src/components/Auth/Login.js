@@ -33,8 +33,8 @@ const Login = () => {
     <div className="auth-container">
       <div className="auth-card">
         <div className="auth-header">
-          <h1>eDNA Analysis Platform</h1>
-          <p>Centre for Marine Living Resources and Ecology</p>
+          <h1>De Novo Discovery Engine</h1>
+          <p>AI-Powered Taxonomy from Deep-Sea eDNA</p>
         </div>
         
         <form onSubmit={handleSubmit} className="auth-form">
