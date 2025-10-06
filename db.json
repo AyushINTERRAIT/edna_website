@@ -25,12 +25,12 @@
       "createdAt": "2025-09-03T10:00:00Z"
     },
     {
-      "id": "bd96",
-      "name": "abc",
+      "id": "060b",
+      "name": "Shray",
       "email": "abc@gmail.com",
-      "password": "abc",
-      "role": "Researcher",
-      "createdAt": "2025-10-05T14:58:46.776Z"
+      "password": "123",
+      "role": "Technician",
+      "createdAt": "2025-10-05T18:08:02.311Z"
     }
   ],
   "projects": [
